@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+}
+body{
+    background-color: #FFD6D6;
+    color: white;
+}
+html { 
+    scroll-behavior: smooth; 
+  } 
+header {
+    position: static !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 20px;
+    background: black;
+}
+
+.block-text {
+    color: white;
+    font-size: 200px;
+}
+
+header .logo {
+    padding-right: 130px;
+}
+
+header .content {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    height: 100%;
+    align-items: center;
+   
+}
+
+header .content ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+    list-style: none;
+    
+}
+
+header .content ul li a {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 20px;  
+    /* padding-top: 100px; */
+    display: block;
+   
+}
+header .content ul li a:hover{
+    text-decoration: underline;
+    
+}
+.content {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+ 
+}
+
+.style-block {
+    height: 90vh;
+    
+}
+
+.style-block h1 {
+    font-size: 100px;
+    line-height: 131px;
+   
+    font-family: 'Jacques Francois', serif;
+    font-weight: 400;
+    width: 500px;
+}
+
+.style-block p {
+   
+    font-family: 'Playfair Display', serif;
+    width: 365px;
+    text-align: justify;
+    font-size: 25px;
+    padding-top: 22vh;
+}
+
+.style-block .content {
+    display: flex;
+    padding-top: 39.9vh;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.block-6 {
+    background-color: #FFD6D6;
+}
+
+.block-6 hr {
+    height: 3px;
+    border: none;
+    background: black;
+}
+
+.block-6 h2 {
+    font-size: 70px;
+    font-weight: 400;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.block-6 .content {
+    
+    padding: 50px 0;
+    text-align: center;
+    align-items: center;
+  
+
+}
+
+.block-6 .content img {
+    width: 100%;
+}
+
+.block-6 .content p {
+    font-size: 40px;
+}
+
+.block-6 .spec1 {
+    grid-template-columns: 5fr 3fr;
+}
+
+.block-6 .spec2 {
+    grid-template-columns: 3fr 5fr;
+    margin-top: -250px;
+}
+
+.block-6 .spec3 {
+    grid-template-columns: 3fr 5fr;
+}
+
+.block-6 .spec4 {
+    grid-template-columns: 5fr 3fr;
+    margin-top: -250px;
+}
+
+.block-6 h3 {
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 30px;
+    border: 2px solid black;
+    width: 600px;
+    margin: 0 auto;
+    
+}
+
+.header-product {
+    margin-bottom: 3000px;
+}

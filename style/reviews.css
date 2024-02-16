@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:ital@1&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Roboto:ital@1&display=swap'); 
+body{ 
+  
+    background-color:#FFD6D6; 
+    color: #000000; 
+    font-family: Raleway, sans-serif; 
+} 
+ 
+html { 
+    scroll-behavior: smooth; 
+  } 
+  header {
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    padding-top: 20px;
+    
+}
+header .logo {
+    padding-right: 130px;
+}
+header .content{
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    white-space: nowrap;
+}
+header .content ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+    list-style: none;
+}
+
+header .content ul li a {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+}
+header .content ul li a:hover{
+    text-decoration: underline;
+}
+.container{ 
+    max-width: 1400px; 
+    margin: 0 auto; 
+} 
+.navigation{ 
+    font-family: Raleway, sans-serif; 
+    font-size: 20px; 
+    display: flex; 
+    justify-content: space-between; 
+    background-color: rgb(0, 19, 3);   
+    word-spacing: 150px; 
+    margin-bottom: 0; 
+    white-space: nowrap; 
+    padding: 15px; 
+    max-height: 25px; 
+} 
+.nav-link{ 
+    text-decoration: none; 
+    color: #000000; 
+} 
+.nav-link-active{ 
+    text-decoration: none; 
+    color: #000000; 
+    text-decoration: underline; 
+} 
+.nav-link:hover{ 
+    text-decoration: underline; 
+} 
+a{ 
+    text-decoration: none; 
+} 
+.header-button{ 
+    background-color: #002c14; 
+    color: #000000; 
+    font-family: Raleway, sans-serif; 
+    font-size: 18px; 
+    display: flex; 
+    justify-content: right; 
+    border: none; 
+    padding: 5px; 
+    text-decoration: none; 
+} 
+
+.reviews-image{ 
+    width: 20%; 
+    height: 20%; 
+} 
+.reviews-text{ 
+    text-align: center; 
+    margin: 20px; 
+   
+} 
+.text-rev{ 
+    font-family: Raleway, sans-serif; 
+    font-size: 20px; 
+    text-align: justify; 
+} 
+.text-mini-1{ 
+    font-family: Raleway, sans-serif; 
+    font-size: 20px; 
+    text-align: justify; 
+    text-decoration: underline; 
+} 
+.text-mini{ 
+    font-family: Raleway, sans-serif; 
+    font-size: 20px; 
+    text-align: justify; 
+} 
+.reviews-block{ 
+    border: 2px solid #000000; 
+    border-radius: 20px; 
+    padding: 20px; 
+    max-width: 1100px; 
+    margin-left: 75px; 
+    margin-bottom: 35px; 
+    
+} 
+.reviews-text{ 
+    max-width: 800px; 
+    margin-left: 255px; 
+} 
+footer {
+    background-color: #FFD6D6; 
+    text-align: center;
+    padding-top: 50px;
+}
+footer .info {
+    background-image: url(../assets/img/footer.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 250px;
+    margin-top: -220px;
+    color: #fff;
+    padding-bottom: 50px;
+}
+footer .info h4 {
+    font-size: 40px;
+    font-weight: 400;
+}
+footer .info .contact {
+    margin-top: 100px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+footer .info .contact .cont {
+    display: flex;
+    padding-bottom: 30px;
+    align-items: center;
+}
+footer .info .contact .cont img{
+    margin-right: 30px;
+}
+footer .info .contact .cont .text {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer .info .contact .right {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer .soc {
+    margin-top: 30px;
+    text-align: center;
+}
+footer .soc h3 {
+    font-family: arial;
+    margin-bottom: 30px;
+}
+footer .soc a {
+    padding-right: 10px;
+}
